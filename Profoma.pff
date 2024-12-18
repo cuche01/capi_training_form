@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 8.0
+AppType=Entry
+
+[Files]
+Application=.\Profoma.ent
+InputData=.\ProfomaVer1.dat
+Paradata=.\Profoma.cslog
