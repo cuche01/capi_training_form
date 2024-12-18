@@ -958,7 +958,19 @@
               "name": "ETHNIC_SPC", 
               "labels": [ { "text": "5b. Specify Ethnicity " } ], 
               "contentType": "alpha", 
-              "length": 30
+              "length": 30, 
+              "valueSets": [
+                {
+                  "name": "ETHNIC_SPC_VS1", 
+                  "labels": [ { "text": "5b. Specify Ethnicity " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "value": "20" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "RELIGION", 
@@ -991,7 +1003,19 @@
               "name": "RELIGION_SPC", 
               "labels": [ { "text": "6b. Specify Religion" } ], 
               "contentType": "alpha", 
-              "length": 30
+              "length": 30, 
+              "valueSets": [
+                {
+                  "name": "RELIGION_SPC_VS1", 
+                  "labels": [ { "text": "6b. Specify Religion" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "value": "20" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "MARITAL_STATUS", 
