@@ -1,0 +1,1256 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "PROFOMA_DICT", 
+  "labels": [ { "text": "Profoma" } ], 
+  "security": {
+    "allowDataViewerModifications": true, 
+    "allowExport": true, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "c5c7cb2313d89c2750f90c8c6560defc2564393534a87b2fd57f122ccfc64595"
+  }, 
+  "readOptimization": true, 
+  "recordType": {
+    "start": 1, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": false
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "PROFOMA_LEVEL", 
+      "labels": [ { "text": "Profoma Level" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "SER_NUM", 
+            "labels": [ { "text": "Serial number" } ], 
+            "contentType": "numeric", 
+            "start": 2, 
+            "length": 3, 
+            "zeroFill": true, 
+            "valueSets": [
+              {
+                "name": "SER_NUM_VS1", 
+                "labels": [ { "text": "Serial number" } ], 
+                "values": [
+                  {
+                    "labels": [ { "text": "" } ], 
+                    "pairs": [ { "range": [ "1", "200" ] } ]
+                  }
+                ]
+              }
+            ]
+          }, 
+          {
+            "name": "STATE", 
+            "labels": [ { "text": "State" } ], 
+            "contentType": "numeric", 
+            "start": 5, 
+            "length": 2, 
+            "zeroFill": false, 
+            "valueSets": [
+              {
+                "name": "STATE_VS1", 
+                "labels": [ { "text": "State" } ], 
+                "values": [
+                  {
+                    "labels": [ { "text": "SOKOTO" } ], 
+                    "pairs": [ { "value": "1" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ZAMFARA" } ], 
+                    "pairs": [ { "value": "2" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KATSINA" } ], 
+                    "pairs": [ { "value": "3" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "JIGAWA" } ], 
+                    "pairs": [ { "value": "4" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "YOBE" } ], 
+                    "pairs": [ { "value": "5" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BORNO" } ], 
+                    "pairs": [ { "value": "6" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ADAMAWA" } ], 
+                    "pairs": [ { "value": "7" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "GOMBE" } ], 
+                    "pairs": [ { "value": "8" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BAUCHI" } ], 
+                    "pairs": [ { "value": "9" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KANO" } ], 
+                    "pairs": [ { "value": "10" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KADUNA" } ], 
+                    "pairs": [ { "value": "11" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KEBBI" } ], 
+                    "pairs": [ { "value": "12" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "NIGER" } ], 
+                    "pairs": [ { "value": "13" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "FCT" } ], 
+                    "pairs": [ { "value": "14" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "NASARAWA" } ], 
+                    "pairs": [ { "value": "15" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "PLATEAU" } ], 
+                    "pairs": [ { "value": "16" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TARABA" } ], 
+                    "pairs": [ { "value": "17" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BENUE" } ], 
+                    "pairs": [ { "value": "18" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KOGI" } ], 
+                    "pairs": [ { "value": "19" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KWARA" } ], 
+                    "pairs": [ { "value": "20" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "OYO" } ], 
+                    "pairs": [ { "value": "21" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "OSUN" } ], 
+                    "pairs": [ { "value": "22" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "EKITI" } ], 
+                    "pairs": [ { "value": "23" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ONDO" } ], 
+                    "pairs": [ { "value": "24" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "EDO" } ], 
+                    "pairs": [ { "value": "25" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ANAMBRA" } ], 
+                    "pairs": [ { "value": "26" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ENUGU" } ], 
+                    "pairs": [ { "value": "27" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "EBONYI" } ], 
+                    "pairs": [ { "value": "28" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "CROSS RIVER" } ], 
+                    "pairs": [ { "value": "29" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "AKWA IBOM" } ], 
+                    "pairs": [ { "value": "30" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ABIA" } ], 
+                    "pairs": [ { "value": "31" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "IMO" } ], 
+                    "pairs": [ { "value": "32" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "RIVERS" } ], 
+                    "pairs": [ { "value": "33" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BAYELSA" } ], 
+                    "pairs": [ { "value": "34" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DELTA" } ], 
+                    "pairs": [ { "value": "35" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "LAGOS" } ], 
+                    "pairs": [ { "value": "36" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "OGUN" } ], 
+                    "pairs": [ { "value": "37" } ]
+                  }
+                ]
+              }
+            ]
+          }, 
+          {
+            "name": "LGA", 
+            "labels": [ { "text": "LGA" } ], 
+            "contentType": "numeric", 
+            "start": 7, 
+            "length": 3, 
+            "zeroFill": false, 
+            "valueSets": [
+              {
+                "name": "SOKOTO", 
+                "labels": [ { "text": "LGA" } ], 
+                "values": [
+                  {
+                    "labels": [ { "text": "GUDU" } ], 
+                    "pairs": [ { "value": "1" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BINJI" } ], 
+                    "pairs": [ { "value": "2" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TANGAZA" } ], 
+                    "pairs": [ { "value": "3" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "GWADABAWA" } ], 
+                    "pairs": [ { "value": "4" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ILLELA" } ], 
+                    "pairs": [ { "value": "5" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "GADA" } ], 
+                    "pairs": [ { "value": "6" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SABON BIRNI" } ], 
+                    "pairs": [ { "value": "7" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ISA" } ], 
+                    "pairs": [ { "value": "8" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "GORONYO" } ], 
+                    "pairs": [ { "value": "9" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "WURNO" } ], 
+                    "pairs": [ { "value": "10" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "RABAH" } ], 
+                    "pairs": [ { "value": "11" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KWARE" } ], 
+                    "pairs": [ { "value": "12" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SOKOTO SOUTH" } ], 
+                    "pairs": [ { "value": "13" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SOKOTO NORTH" } ], 
+                    "pairs": [ { "value": "14" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "WAMAKKO" } ], 
+                    "pairs": [ { "value": "15" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SILAME" } ], 
+                    "pairs": [ { "value": "16" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "YABO BODINGO" } ], 
+                    "pairs": [ { "value": "17" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BODINGA" } ], 
+                    "pairs": [ { "value": "18" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DANGE SHUNI" } ], 
+                    "pairs": [ { "value": "19" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TURETA" } ], 
+                    "pairs": [ { "value": "20" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SHAGARI" } ], 
+                    "pairs": [ { "value": "21" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TAMBUWAL" } ], 
+                    "pairs": [ { "value": "22" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KEBBE" } ], 
+                    "pairs": [ { "value": "23" } ]
+                  }
+                ]
+              }, 
+              {
+                "name": "ZAMFARA", 
+                "labels": [ { "text": "LGA" } ], 
+                "values": [
+                  {
+                    "labels": [ { "text": "GUMMI" } ], 
+                    "pairs": [ { "value": "24" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BUKKUYUM" } ], 
+                    "pairs": [ { "value": "25" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ANKA" } ], 
+                    "pairs": [ { "value": "26" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BAKURA" } ], 
+                    "pairs": [ { "value": "27" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TALATA MAFARA" } ], 
+                    "pairs": [ { "value": "28" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MARADUN" } ], 
+                    "pairs": [ { "value": "29" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SHINKAFI" } ], 
+                    "pairs": [ { "value": "30" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ZURMI MARU" } ], 
+                    "pairs": [ { "value": "31" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BIRNIN MAGAJI" } ], 
+                    "pairs": [ { "value": "32" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KAURA NAMODA" } ], 
+                    "pairs": [ { "value": "33" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TSAFE" } ], 
+                    "pairs": [ { "value": "34" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "GUSAU" } ], 
+                    "pairs": [ { "value": "35" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BUNGUDU" } ], 
+                    "pairs": [ { "value": "36" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MARU" } ], 
+                    "pairs": [ { "value": "37" } ]
+                  }
+                ]
+              }, 
+              {
+                "name": "KATSINA", 
+                "labels": [ { "text": "LGA" } ], 
+                "values": [
+                  {
+                    "labels": [ { "text": "BAURE" } ], 
+                    "pairs": [ { "value": "38" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "ZANGO" } ], 
+                    "pairs": [ { "value": "39" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SANDAMU" } ], 
+                    "pairs": [ { "value": "40" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DUTSI" } ], 
+                    "pairs": [ { "value": "41" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DAURA" } ], 
+                    "pairs": [ { "value": "42" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MAI'ADUA" } ], 
+                    "pairs": [ { "value": "43" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MASHI" } ], 
+                    "pairs": [ { "value": "44" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KAITA" } ], 
+                    "pairs": [ { "value": "45" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KATSINA" } ], 
+                    "pairs": [ { "value": "46" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "JIBIA" } ], 
+                    "pairs": [ { "value": "47" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BATSARI" } ], 
+                    "pairs": [ { "value": "48" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BATAGARAWA" } ], 
+                    "pairs": [ { "value": "49" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "RIMI" } ], 
+                    "pairs": [ { "value": "50" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MANI" } ], 
+                    "pairs": [ { "value": "51" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "INGAWA" } ], 
+                    "pairs": [ { "value": "52" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KUSADA" } ], 
+                    "pairs": [ { "value": "53" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BINDAWA" } ], 
+                    "pairs": [ { "value": "54" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "CHARANCHI" } ], 
+                    "pairs": [ { "value": "55" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KURFI" } ], 
+                    "pairs": [ { "value": "56" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SAFANA" } ], 
+                    "pairs": [ { "value": "57" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DUTSIN-MA" } ], 
+                    "pairs": [ { "value": "58" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KANKIA" } ], 
+                    "pairs": [ { "value": "59" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MATAZU" } ], 
+                    "pairs": [ { "value": "60" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DAN MUSA" } ], 
+                    "pairs": [ { "value": "61" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KANKARA" } ], 
+                    "pairs": [ { "value": "62" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MUSAWA" } ], 
+                    "pairs": [ { "value": "63" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MALUNFASHI" } ], 
+                    "pairs": [ { "value": "64" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KAFUR" } ], 
+                    "pairs": [ { "value": "65" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "BAKORI" } ], 
+                    "pairs": [ { "value": "66" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "FASKARI" } ], 
+                    "pairs": [ { "value": "67" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SABUWA" } ], 
+                    "pairs": [ { "value": "68" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DANDUME" } ], 
+                    "pairs": [ { "value": "69" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "FUNTUA" } ], 
+                    "pairs": [ { "value": "70" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DANJA" } ], 
+                    "pairs": [ { "value": "71" } ]
+                  }
+                ]
+              }
+            ]
+          }, 
+          {
+            "name": "ENUM_ID", 
+            "labels": [ { "text": "Enumerators ID" } ], 
+            "contentType": "numeric", 
+            "start": 10, 
+            "length": 2, 
+            "zeroFill": false, 
+            "valueSets": [
+              {
+                "name": "ENUM_ID_VS1", 
+                "labels": [ { "text": "Enumerators ID" } ], 
+                "values": [
+                  {
+                    "labels": [ { "text": "IBRAHIM" } ], 
+                    "pairs": [ { "value": "1" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "KOSI" } ], 
+                    "pairs": [ { "value": "2" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "MARIAM" } ], 
+                    "pairs": [ { "value": "3" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "UCHE" } ], 
+                    "pairs": [ { "value": "4" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SULE" } ], 
+                    "pairs": [ { "value": "5" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TOYEEB" } ], 
+                    "pairs": [ { "value": "6" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "WILLIAMS" } ], 
+                    "pairs": [ { "value": "7" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "HENRY" } ], 
+                    "pairs": [ { "value": "8" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "DAVID" } ], 
+                    "pairs": [ { "value": "9" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "OPE" } ], 
+                    "pairs": [ { "value": "10" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "TOBI" } ], 
+                    "pairs": [ { "value": "11" } ]
+                  }, 
+                  {
+                    "labels": [ { "text": "SEGUN" } ], 
+                    "pairs": [ { "value": "12" } ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "SECTION_A", 
+          "labels": [ { "text": "SECTION A: MATERNAL DEMOGRAPHIC CHARACTERISTICS" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "RE_DATE", 
+              "labels": [ { "text": "Date of recruitment" } ], 
+              "contentType": "alpha", 
+              "length": 8
+            }, 
+            {
+              "name": "RE_DAY", 
+              "labels": [ { "text": "Date of recruitment:DAY" } ], 
+              "contentType": "numeric", 
+              "subitem": true, 
+              "subitemOffset": 0, 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "RE_DAY_VS1", 
+                  "labels": [ { "text": "Date of recruitment:DAY" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "1", "31" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "RE_MONTH", 
+              "labels": [ { "text": "Date of recruitment: MONTH" } ], 
+              "contentType": "numeric", 
+              "subitem": true, 
+              "subitemOffset": 2, 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "RE_MONTH_VS1", 
+                  "labels": [ { "text": "Date of recruitment: MONTH" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "January" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "February" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "March" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "April" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "May" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "June" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "July" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "August" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "September" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "October" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "November" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "December" } ], 
+                      "pairs": [ { "value": "12" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "RE_YEAR", 
+              "labels": [ { "text": "Date of recruitment: YEAR" } ], 
+              "contentType": "numeric", 
+              "subitem": true, 
+              "subitemOffset": 4, 
+              "length": 4, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "RE_YEAR_VS1", 
+                  "labels": [ { "text": "Date of recruitment: YEAR" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "value": "2024" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BIRTH_DATE", 
+              "labels": [ { "text": "Date of Birth" } ], 
+              "contentType": "alpha", 
+              "length": 8
+            }, 
+            {
+              "name": "DOB_D", 
+              "labels": [ { "text": "Date of Birth: DAY" } ], 
+              "contentType": "numeric", 
+              "subitem": true, 
+              "subitemOffset": 0, 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "DOB_D_VS1", 
+                  "labels": [ { "text": "Date of Birth: DAY" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "1", "31" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "DOB_M", 
+              "labels": [ { "text": "Date of Birth:  MONTH" } ], 
+              "contentType": "numeric", 
+              "subitem": true, 
+              "subitemOffset": 2, 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "DOB_M_VS1", 
+                  "labels": [ { "text": "Date of Birth:  MONTH" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "January" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "February" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "March" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "April" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "May" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "June" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "July" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "August" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "September" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "October" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "November" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "December" } ], 
+                      "pairs": [ { "value": "12" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "DOB_Y", 
+              "labels": [ { "text": "Date of Birth: : YEAR" } ], 
+              "contentType": "numeric", 
+              "subitem": true, 
+              "subitemOffset": 4, 
+              "length": 4, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "DOB_Y_VS1", 
+                  "labels": [ { "text": "Date of Birth: : YEAR" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "1960", "2009" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "AGE", 
+              "labels": [ { "text": "1. Age" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "AGE_VS1", 
+                  "labels": [ { "text": "1. Age" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "15", "64" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "PLACE_RES", 
+              "labels": [ { "text": "2. Place of residence" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "GEST_AGE", 
+              "labels": [ { "text": "3. Gestational age at recruitment (weeks)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "PARITY", 
+              "labels": [ { "text": "4. Parity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "PARITY_VS1", 
+                  "labels": [ { "text": "4. Parity" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Null" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "One" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Two" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Three" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Four and above" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ETHNIC", 
+              "labels": [ { "text": "5. Ethnicity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "ETHNIC_VS1", 
+                  "labels": [ { "text": "5. Ethnicity" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Hausa " } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Fulani " } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Igbo" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Yoruba " } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Gbagyi " } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Others" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ETHNIC_SPC", 
+              "labels": [ { "text": "5b. Specify Ethnicity " } ], 
+              "contentType": "alpha", 
+              "length": 30
+            }, 
+            {
+              "name": "RELIGION", 
+              "labels": [ { "text": "6. Religion" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "RELIGION_VS1", 
+                  "labels": [ { "text": "6. Religion" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Christianity " } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Islam" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Others" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "RELIGION_SPC", 
+              "labels": [ { "text": "6b. Specify Religion" } ], 
+              "contentType": "alpha", 
+              "length": 30
+            }, 
+            {
+              "name": "MARITAL_STATUS", 
+              "labels": [ { "text": "7. Marital status" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TYPE_MAR", 
+              "labels": [ { "text": "8. Type of marriage" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }
+          ]
+        }, 
+        {
+          "name": "SECTION_A1", 
+          "labels": [ { "text": "MATERNAL MEDICAL CHARACTERISTICS, ANC COVERAGE AND CONTENT" } ], 
+          "recordType": "2", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "HOSP_ADM", 
+              "labels": [ { "text": "9. Hospital admission?" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "DIAGNOSIS", 
+              "labels": [ { "text": "10. Diagnosis on admission" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "PRE_PREG", 
+              "labels": [ { "text": "11. Pre-pregnancy weight (Kg):" } ], 
+              "contentType": "numeric", 
+              "length": 6, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "HIST_BLOOD", 
+              "labels": [ { "text": "12. History of blood transfusion" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "REC_ANC", 
+              "labels": [ { "text": "13. Receiving antenatal care (ANC)?" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "NUM_ANC", 
+              "labels": [ { "text": "14. Number of ANC visits so far" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CON_ANC", 
+              "labels": [ { "text": "15. Content of ANC received" } ], 
+              "contentType": "alpha", 
+              "length": 7, 
+              "valueSets": [
+                {
+                  "name": "CON_ANC_VS1", 
+                  "labels": [ { "text": "15. Content of ANC received" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "BP" } ], 
+                      "pairs": [ { "value": "A" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "FERSOLATE" } ], 
+                      "pairs": [ { "value": "B" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "TT" } ], 
+                      "pairs": [ { "value": "C" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "EXPLANATIONS OF PREG. COMPLICATIONS" } ], 
+                      "pairs": [ { "value": "D" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "URINALYSIS" } ], 
+                      "pairs": [ { "value": "E" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "FBC" } ], 
+                      "pairs": [ { "value": "F" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "WEIGHT" } ], 
+                      "pairs": [ { "value": "G" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BP", 
+              "labels": [ { "text": "BP" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BP_VS1", 
+                  "labels": [ { "text": "BP" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FERSOLATE", 
+              "labels": [ { "text": "FERSOLATE" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "FERSOLATE_VS1", 
+                  "labels": [ { "text": "FERSOLATE" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "TT", 
+              "labels": [ { "text": "TT" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "TT_VS1", 
+                  "labels": [ { "text": "TT" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "EXP_OF_PREG", 
+              "labels": [ { "text": "EXPLANATIONS OF PREG. COMPLICATIONS" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "EXP_OF_PREG_VS1", 
+                  "labels": [ { "text": "EXPLANATIONS OF PREG. COMPLICATIONS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "URINALYSIS", 
+              "labels": [ { "text": "URINALYSIS" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "URINALYSIS_VS1", 
+                  "labels": [ { "text": "URINALYSIS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FBC", 
+              "labels": [ { "text": "FBC" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "FBC_VS1", 
+                  "labels": [ { "text": "FBC" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WEIGHT_1", 
+              "labels": [ { "text": "WEIGHT" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "WEIGHT_1_VS1", 
+                  "labels": [ { "text": "WEIGHT" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "OLIGO", 
+              "labels": [ { "text": "16. Obstetric scan finding of Oligohydramnios" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
