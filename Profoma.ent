@@ -1,0 +1,77 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "entry", 
+  "name": "PROFOMA", 
+  "label": "Profoma", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "Dicts/Profoma.dcf", 
+      "parent": "Profoma.fmf"
+    }
+  ], 
+  "forms": [
+    "Profoma.fmf"
+  ], 
+  "questionText": [
+    "Profoma.ent.qsf"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "Profoma.ent.apc"
+    }
+  ], 
+  "messages": [
+    "Profoma.ent.mgf"
+  ], 
+  "logicSettings": {
+    "version": 8.0, 
+    "caseSensitive": {
+      "symbols": true
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "alwaysAllow", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "askOperatorId": false, 
+    "autoAdvanceOnSelection": false, 
+    "caseTree": "mobileOnly", 
+    "centerForms": false, 
+    "createListing": false, 
+    "createLog": false, 
+    "decimalMark": "dot", 
+    "displayCodesAlongsideLabels": false, 
+    "notes": {
+      "delete": "all", 
+      "edit": "all"
+    }, 
+    "partialSave": {
+      "operatorEnabled": false
+    }, 
+    "showEndCaseMessage": true, 
+    "showOnlyDiscreteValuesInComboBoxes": true, 
+    "showFieldLabels": true, 
+    "showErrorMessageNumbers": false, 
+    "showQuestionText": true, 
+    "showRefusals": true, 
+    "verify": {
+      "frequency": 1, 
+      "start": 1
+    }, 
+    "htmlDialogs": true, 
+    "paradata": {
+      "collection": "all", 
+      "recordCoordinates": false, 
+      "recordInitialPropertyValues": false, 
+      "recordIteratorLoadCases": false, 
+      "recordValues": false, 
+      "deviceStateIntervalMinutes": 5
+    }, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}
