@@ -847,26 +847,38 @@
               "name": "PLACE_RES", 
               "labels": [ { "text": "2. Place of residence" } ], 
               "contentType": "alpha", 
-              "length": 50, 
-              "valueSets": [
-                {
-                  "name": "PLACE_RES_VS1", 
-                  "labels": [ { "text": "2. Place of residence" } ], 
-                  "values": [
-                    {
-                      "labels": [ { "text": "" } ], 
-                      "pairs": [ { "value": "20" } ]
-                    }
-                  ]
-                }
-              ]
+              "length": 50
             }, 
             {
               "name": "GEST_AGE", 
               "labels": [ { "text": "3. Gestational age at recruitment (weeks)" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "GEST_AGE_VS1", 
+                  "labels": [ { "text": "3. Gestational age at recruitment (weeks)" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "28 – 33+6" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "34 – 36+6" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "37 - 42" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": ">42" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "PARITY", 
@@ -986,14 +998,66 @@
               "labels": [ { "text": "7. Marital status" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "MARITAL_STATUS_VS1", 
+                  "labels": [ { "text": "7. Marital status" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "single" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "married" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "separated" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "widowed" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "divorced" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "co-habiting" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "engaged/betrothed" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "TYPE_MAR", 
               "labels": [ { "text": "8. Type of marriage" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "TYPE_MAR_VS1", 
+                  "labels": [ { "text": "8. Type of marriage" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "monogamous" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "polygamous" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }, 
