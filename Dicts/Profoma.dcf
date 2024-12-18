@@ -847,7 +847,19 @@
               "name": "PLACE_RES", 
               "labels": [ { "text": "2. Place of residence" } ], 
               "contentType": "alpha", 
-              "length": 50
+              "length": 50, 
+              "valueSets": [
+                {
+                  "name": "PLACE_RES_VS1", 
+                  "labels": [ { "text": "2. Place of residence" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "value": "20" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "GEST_AGE", 
