@@ -1,0 +1,129 @@
+﻿---
+fileType: Question Text
+version: CSPro 8.0
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: PROFOMA_DICT.SER_NUM
+    conditions:
+      - questionText:
+          EN: |
+            <font face="Courier New" color="#0000ff"><b><span style="font-size: 18px;">Serial number</span></b></font><p></p>
+  - name: PROFOMA_DICT.STATE
+    conditions:
+      - questionText:
+          EN: |
+            State<p></p>
+  - name: PROFOMA_DICT.LGA
+    conditions:
+      - questionText:
+          EN: |
+            LGA<p></p>
+  - name: PROFOMA_DICT.ENUM_ID
+    conditions:
+      - questionText:
+          EN: |
+            Enumerators ID<p></p>
+  - name: PROFOMA_DICT.RE_DAY
+    conditions:
+      - questionText:
+          EN: |
+            <p>Date of recruitment:</p><p>DAY<p></p></p>
+  - name: PROFOMA_DICT.RE_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            MONTH<p></p>
+  - name: PROFOMA_DICT.RE_YEAR
+    conditions:
+      - questionText:
+          EN: |
+            YEAR<p></p>
+  - name: PROFOMA_DICT.DOB_D
+    conditions:
+      - questionText:
+          EN: |
+            Date of Birth: DAY<p></p>
+  - name: PROFOMA_DICT.DOB_M
+    conditions:
+      - questionText:
+          EN: |
+            MONTH<p></p>
+  - name: PROFOMA_DICT.DOB_Y
+    conditions:
+      - questionText:
+          EN: |
+            YEAR<p></p>
+  - name: PROFOMA_DICT.AGE
+    conditions:
+      - questionText:
+          EN: |
+            1. Age<p></p>
+  - name: PROFOMA_DICT.PLACE_RES
+    conditions:
+      - questionText:
+          EN: |
+            2. Place of residence<p></p>
+  - name: PROFOMA_DICT.GEST_AGE
+    conditions:
+      - questionText:
+          EN: |
+            3. Gestational age at recruitment (weeks)<p></p>
+  - name: PROFOMA_DICT.PARITY
+    conditions:
+      - questionText:
+          EN: |
+            4. Parity<p></p>
+  - name: PROFOMA_DICT.ETHNIC
+    conditions:
+      - questionText:
+          EN: |
+            5. Ethnicity<p></p>
+  - name: PROFOMA_DICT.ETHNIC_SPC
+    conditions:
+      - questionText:
+          EN: |
+            5b. Specify Ethnicity&nbsp;<p></p>
+  - name: PROFOMA_DICT.RELIGION
+    conditions:
+      - questionText:
+          EN: |
+            6. Religion<p></p>
+  - name: PROFOMA_DICT.RELIGION_SPC
+    conditions:
+      - questionText:
+          EN: |
+            6b. Specify Religion<p></p>
+  - name: PROFOMA_DICT.MARITAL_STATUS
+    conditions:
+      - questionText:
+          EN: |
+            7. Marital status<p></p>
+  - name: PROFOMA_DICT.TYPE_MAR
+    conditions:
+      - questionText:
+          EN: |
+            8. Type of marriage<p></p>
+...
