@@ -12,9 +12,9 @@ File=.\Dicts\Profoma.dcf
 [Form]
 Name=FORM000
 Label=Profoma Level
-QuestionTextHeight=20
+QuestionTextHeight=36
 Level=1
-Size=1094,937
+Size=1208,1228
   
 Item=SER_NUM
 Item=STATE
@@ -34,8 +34,6 @@ Item=RELIGION_SPC
 Item=MARITAL_STATUS
 Item=TYPE_MAR
 Item=RE_DATE
-  
-
 Item=HOSP_ADM
 Item=DIAGNOSIS
 Item=PRE_PREG
@@ -54,15 +52,8 @@ Item=HISTORY_OF_CONGENITAL_ANOMALY_IN_PREVIOUS_BIRTHS
   
   
 [Text]
-Name=TEXT1
-Position=270,118,296,134
-Text=DAY
-Form=1
- 
-  
-[Text]
 Name=TEXT000
-Position=270,168,296,184
+Position=365,158,391,174
 Text=DAY
 Form=1
  
@@ -73,7 +64,7 @@ Name=FORM001
 Label=Section_B_Form
 QuestionTextHeight=20
 Level=1
-Size=927,579
+Size=924,579
   
 Item=SOURCE_OF_DRINKING_WATER
 Item=A_OTHER_SOURCE_OF_DRINKING_WATER
@@ -109,7 +100,7 @@ Max=1
   
 [Field]
 Name=SER_NUM
-Position=219,46,262,66
+Position=219,50,262,70
 Item=SER_NUM,PROFOMA_DICT
 Protected=Yes
 AutoIncrement=Yes
@@ -117,49 +108,49 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=108,49,199,65
+Position=108,53,199,69
 Text=Serial number
  
   
 [Field]
 Name=STATE
-Position=314,49,343,69
+Position=342,50,371,70
 Item=STATE,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=271,53,304,69
+Position=296,53,329,69
 Text=State
  
   
 [Field]
 Name=LGA
-Position=389,49,432,69
+Position=451,50,494,70
 Item=LGA,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=354,52,381,68
+Position=402,53,429,69
 Text=LGA
  
   
 [Field]
 Name=ENUM_ID
-Position=549,49,578,69
+Position=635,50,664,70
 Item=ENUM_ID,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=443,53,540,69
+Position=523,53,620,69
 Text=Enumerators ID
  
   
 [Field]
 Name=RE_DATE
-Position=232,87,345,107
+Position=361,93,474,113
 Item=RE_DATE,PROFOMA_DICT
 Protected=Yes
 DataCaptureType=Date
@@ -167,68 +158,68 @@ CaptureDateFormat=YYYYMMDD
 Form=1
   
 [Text]
-Position=106,90,228,106
+Position=227,94,349,110
 Text=Date of recruitment
  
   
 [Field]
 Name=DOB_D
-Position=270,143,299,163
+Position=365,132,394,152
 Item=DOB_D,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=107,148,220,164
+Position=236,136,349,152
 Text=Date of Birth: DAY
  
   
 [Field]
 Name=DOB_M
-Position=308,143,337,163
+Position=405,133,434,153
 Item=DOB_M,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=296,170,343,186
+Position=401,158,448,174
 Text=MONTH
  
   
 [Field]
 Name=DOB_Y
-Position=352,144,409,164
+Position=447,132,504,152
 Item=DOB_Y,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=357,170,391,186
+Position=452,158,486,174
 Text=YEAR
  
   
 [Field]
 Name=AGE
-Position=364,195,393,215
+Position=364,194,393,214
 Item=AGE,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=298,196,338,212
+Position=309,196,349,212
 Text=1. Age
  
   
 [Field]
 Name=PLACE_RES
-Position=368,221,1069,241
+Position=364,221,1065,241
 Item=PLACE_RES,PROFOMA_DICT
 UpperCase=Yes
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=205,218,338,234
+Position=216,218,349,234
 Text=2. Place of residence
  
   
@@ -240,37 +231,37 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=78,243,338,259
+Position=89,243,349,259
 Text=3. Gestational age at recruitment (weeks)
  
   
 [Field]
 Name=PARITY
-Position=365,271,380,291
+Position=364,271,379,291
 Item=PARITY,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=287,271,339,287
+Position=297,271,349,287
 Text=4. Parity
  
   
 [Field]
 Name=ETHNIC
-Position=364,295,379,315
+Position=364,297,379,317
 Item=ETHNIC,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=269,293,338,309
+Position=280,293,349,309
 Text=5. Ethnicity
  
   
 [Field]
 Name=ETHNIC_SPC
-Position=388,297,809,317
+Position=399,297,820,317
 Item=ETHNIC_SPC,PROFOMA_DICT
 UpperCase=Yes
 DataCaptureType=TextBox
@@ -289,13 +280,13 @@ DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=270,356,338,372
+Position=281,356,349,372
 Text=6. Religion
  
   
 [Field]
 Name=RELIGION_SPC
-Position=391,357,812,377
+Position=402,357,823,377
 Item=RELIGION_SPC,PROFOMA_DICT
 UpperCase=Yes
 DataCaptureType=TextBox
@@ -308,205 +299,205 @@ Text=6b. Specify Religion
   
 [Field]
 Name=MARITAL_STATUS
-Position=364,400,379,420
+Position=364,398,379,418
 Item=MARITAL_STATUS,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=239,398,338,414
+Position=250,398,349,414
 Text=7. Marital status
  
   
 [Field]
 Name=TYPE_MAR
-Position=364,438,379,458
+Position=364,434,379,454
 Item=TYPE_MAR,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=219,434,343,450
+Position=225,434,349,450
 Text=8. Type of marriage
  
   
 [Field]
 Name=HOSP_ADM
-Position=573,471,588,491
+Position=364,471,379,491
 Item=HOSP_ADM,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=218,472,360,488
+Position=207,471,349,487
 Text=9. Hospital admission?
  
   
 [Field]
 Name=DIAGNOSIS
-Position=573,501,588,521
+Position=364,502,1065,522
 Item=DIAGNOSIS,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=216,502,387,518
+Position=178,502,349,518
 Text=10. Diagnosis on admission
  
   
 [Field]
 Name=PRE_PREG
-Position=573,531,658,551
+Position=364,531,449,551
 Item=PRE_PREG,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=216,532,411,548
+Position=154,531,349,547
 Text=11. Pre-pregnancy weight (Kg):
  
   
 [Field]
 Name=HIST_BLOOD
-Position=573,561,588,581
+Position=364,561,379,581
 Item=HIST_BLOOD,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,563,410,579
+Position=155,561,349,577
 Text=12. History of blood transfusion
  
   
 [Field]
 Name=REC_ANC
-Position=573,591,588,611
+Position=364,591,379,611
 Item=REC_ANC,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=215,593,443,609
+Position=121,591,349,607
 Text=13. Receiving antenatal care (ANC)?
  
   
 [Field]
 Name=NUM_ANC
-Position=573,621,602,641
+Position=364,621,393,641
 Item=NUM_ANC,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=215,623,408,639
+Position=156,621,349,637
 Text=14. Number of ANC visits so far
  
   
 [Field]
 Name=CON_ANC
-Position=573,651,672,671
+Position=364,651,463,671
 Item=CON_ANC,PROFOMA_DICT
 DataCaptureType=CheckBox
 Form=1
   
 [Text]
-Position=214,653,391,669
+Position=168,651,345,667
 Text=15. Content of ANC received
  
   
 [Field]
 Name=OLIGO
-Position=575,685,590,705
+Position=364,684,379,704
 Item=OLIGO,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,684,503,700
+Position=58,684,345,700
 Text=16. Obstetric scan finding of Oligohydramnios
  
   
 [Field]
 Name=OBSTETRIC_SCAN_FINDING_OF_POLYHYDRAMNIOS
-Position=575,712,590,732
+Position=364,712,379,732
 Item=OBSTETRIC_SCAN_FINDING_OF_POLYHYDRAMNIOS,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,714,497,730
+Position=64,712,345,728
 Text=17. Obstetric scan finding of Polyhydramnios
  
   
 [Field]
 Name=INGESTION_OF_ALCOHOL_IN_PREGNANCY
-Position=575,742,590,762
+Position=364,742,379,762
 Item=INGESTION_OF_ALCOHOL_IN_PREGNANCY,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,744,450,760
+Position=111,742,345,758
 Text=18. Ingestion of alcohol in pregnancy
  
   
 [Field]
 Name=HISTORY_OF_CIGARETTE_SMOKING_IN_PREGNANCY
-Position=575,772,590,792
+Position=364,772,379,792
 Item=HISTORY_OF_CIGARETTE_SMOKING_IN_PREGNANCY,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,774,497,790
+Position=64,772,345,788
 Text=19.History of cigarette smoking in pregnancy
  
   
 [Field]
 Name=BODY_RASH_IN_THE_FIRST_OR_THIRD_TRIMESTER_1
-Position=575,802,590,822
+Position=364,802,379,822
 Item=BODY_RASH_IN_THE_FIRST_OR_THIRD_TRIMESTER_1,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,805,490,821
-Text=20. Body rash in the first or third trimester? 
+Position=75,802,345,818
+Text=20. Body rash in the first or third trimester?
  
   
 [Field]
 Name=HISTORY_OF_PRETERM_BIRTH_IN_PREVIOUS_CONFINEMENT
-Position=575,832,590,852
+Position=364,832,379,852
 Item=HISTORY_OF_PRETERM_BIRTH_IN_PREVIOUS_CONFINEMENT,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,835,541,851
+Position=20,832,345,848
 Text=21. History of preterm birth in previous confinement
  
   
 [Field]
 Name=HISTORY_OF_LOW_BIRTH_WEIGHT_IN_PREVIOUS_CONFINEM
-Position=575,862,590,882
+Position=364,862,379,882
 Item=HISTORY_OF_LOW_BIRTH_WEIGHT_IN_PREVIOUS_CONFINEM,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,865,561,881
+Position=0,862,345,878
 Text=22. History of low birth weight in previous confinement
  
   
 [Field]
 Name=HISTORY_OF_CONGENITAL_ANOMALY_IN_PREVIOUS_BIRTHS
-Position=575,892,590,912
+Position=364,892,379,912
 Item=HISTORY_OF_CONGENITAL_ANOMALY_IN_PREVIOUS_BIRTHS,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=216,895,540,911
+Position=21,892,345,908
 Text=23. History of congenital anomaly in previous births
  
 [EndGroup]
@@ -520,93 +511,93 @@ Max=1
   
 [Field]
 Name=SOURCE_OF_DRINKING_WATER
-Position=536,25,551,45
+Position=534,16,549,36
 Item=SOURCE_OF_DRINKING_WATER,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=57,16,236,32
+Position=343,16,522,32
 Text=24. Source of drinking water
  
   
 [Field]
 Name=A_OTHER_SOURCE_OF_DRINKING_WATER
-Position=536,55,706,75
+Position=534,46,704,66
 Item=A_OTHER_SOURCE_OF_DRINKING_WATER,PROFOMA_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=57,46,280,62
+Position=299,46,522,62
 Text=24a. Other source of drinking water
  
   
 [Field]
 Name=TOILET_FACILITY
-Position=536,85,551,105
+Position=534,76,549,96
 Item=TOILET_FACILITY,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=57,76,322,92
+Position=257,76,522,92
 Text=25. What kind of toilet facility do you use?
  
   
 [Field]
 Name=OTHER_FACILITY
-Position=536,115,706,135
+Position=534,106,704,126
 Item=OTHER_FACILITY,PROFOMA_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=57,106,367,122
+Position=212,106,522,122
 Text=25a. What other kind of toilet facility do you use?
  
   
 [Field]
 Name=TYPE_OF_RESIDENCE
-Position=536,145,551,165
+Position=534,136,549,156
 Item=TYPE_OF_RESIDENCE,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=57,136,192,152
+Position=387,136,522,152
 Text=26. Type of residence
  
   
 [Field]
 Name=NUMBER_SLEEP_IN_A_ROOM
-Position=536,175,551,195
+Position=534,166,549,186
 Item=NUMBER_SLEEP_IN_A_ROOM,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=57,166,305,182
+Position=274,166,522,182
 Text=27. How many people sleep in a room?
  
   
 [Field]
 Name=TYPE_OF_COOKING_FUEL
-Position=536,205,551,225
+Position=534,196,549,216
 Item=TYPE_OF_COOKING_FUEL,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=57,196,208,212
+Position=371,196,522,212
 Text=28. Type of cooking fuel
  
   
 [Field]
 Name=AMENITIES_POSSESSED
-Position=537,231,902,251
+Position=534,226,899,246
 Item=AMENITIES_POSSESSED,PROFOMA_DICT
 DataCaptureType=CheckBox
 Form=2
@@ -618,121 +609,121 @@ Text=29. Do you possess or enjoy any of these amenities? (circle as applicable)
   
 [Field]
 Name=MAIN_FLOOR_MATERIAL
-Position=534,264,549,284
+Position=534,255,549,275
 Item=MAIN_FLOOR_MATERIAL,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=55,255,198,271
+Position=379,255,522,271
 Text=30. Main floor material
  
   
 [Field]
 Name=MAIN_WALL_MATERIAL
-Position=534,294,549,314
+Position=534,285,549,305
 Item=MAIN_WALL_MATERIAL,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=55,285,196,301
+Position=381,285,522,301
 Text=31. Main wall material
  
   
 [Field]
 Name=OWN_A_HOUSE
-Position=534,324,549,344
+Position=534,315,549,335
 Item=OWN_A_HOUSE,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=55,315,214,331
+Position=363,315,522,331
 Text=32. Do you own a house?
  
   
 [Field]
 Name=OWN_A_LAND
-Position=534,354,549,374
+Position=534,345,549,365
 Item=OWN_A_LAND,PROFOMA_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=55,345,204,361
+Position=373,345,522,361
 Text=33. Do you own a land?
  
   
 [Field]
 Name=CHICKEN
-Position=534,384,605,404
+Position=534,375,605,395
 Item=CHICKEN,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=55,375,297,391
+Position=280,375,522,391
 Text=34a, How many Chicken do you have?
  
   
 [Field]
 Name=COW
-Position=534,414,605,434
+Position=534,405,605,425
 Item=COW,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=55,405,280,421
+Position=297,405,522,421
 Text=34b. How many Cows do you have?
  
   
 [Field]
 Name=SHEEP_RAM
-Position=534,444,605,464
+Position=534,435,605,455
 Item=SHEEP_RAM,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=55,435,319,451
+Position=258,435,522,451
 Text=34c. How many Sheep/Ram do you have?
  
   
 [Field]
 Name=DONKEY
-Position=534,474,605,494
+Position=534,465,605,485
 Item=DONKEY,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=55,465,299,481
+Position=278,465,522,481
 Text=34d. How many Donkeys do you have?
  
   
 [Field]
 Name=FISH
-Position=534,504,605,524
+Position=534,495,605,515
 Item=FISH,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=55,495,286,511
+Position=291,495,522,511
 Text=34e. How many Fishes do you have?
  
   
 [Field]
 Name=GOAT
-Position=534,534,605,554
+Position=534,525,605,545
 Item=GOAT,PROFOMA_DICT
 DataCaptureType=TextBox
 Form=2
   
 [Text]
-Position=55,525,278,541
+Position=299,525,522,541
 Text=34f. How many Goats do you have?
  
 [EndGroup]

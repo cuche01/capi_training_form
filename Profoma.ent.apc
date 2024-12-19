@@ -56,9 +56,9 @@ if DOB_Y <> 9999 then
 
 		AgeInYear1 = datediff(dateOfBirthForAgeCalc1, RE_DATE, "y");
 		
-	endif;
+endif;
 
-errmsg("Age entered is %d", AgeInYear1);
+//errmsg("Age entered is %d", AgeInYear1);
 PROC AGE
 
 
@@ -104,6 +104,21 @@ Endif;
   // skip to RELIGION;
 // Endif;
 
+PROC RELIGION
+
+if $ in 0:1 Then
+  skip to MARITAL_STATUS;
+Endif;
+PROC HOSP_ADM
+
+IF $ = 2 THEN
+	SKIP TO PRE_PREG
+ENDIF
+PROC REC_ANC
+
+IF $ = 2 THEN
+	SKIP TO OLIGO
+ENDIF
 PROC CON_ANC
 
 if length(strip($)) = 0 then
@@ -131,15 +146,37 @@ endif;
 PROC AMENITIES_POSSESSED
 
 
-// if length(strip($)) = 0 then
-	// errmsg("You must select at least one option");
-	// reenter;
-// endif;
+if length(strip($)) = 0 then
+	errmsg("You must select at least one option");
+	reenter;
+endif;
 
-// if ischecked("A", AMENITIES_POSSESSED) then BP = 1; else BP = 2; endif;
-// if ischecked("B", AMENITIES_POSSESSED) then FERSOLATE = 1; else FERSOLATE = 2; endif;
-// if ischecked("C", AMENITIES_POSSESSED) then TT = 1; else TT = 2; endif;
-// if ischecked("D", AMENITIES_POSSESSED) then EXP_OF_PREG = 1; else EXP_OF_PREG = 2; endif;
-// if ischecked("E", AMENITIES_POSSESSED) then URINALYSIS = 1; else URINALYSIS = 2; endif;
-// if ischecked("F", AMENITIES_POSSESSED) then FBC = 1; else FBC = 2; endif;
-// if ischecked("G", AMENITIES_POSSESSED) then WEIGHT_1 = 1; else WEIGHT_1 = 2; endif;
+if ischecked("A", AMENITIES_POSSESSED) then ELECTRICITY = 1; else ELECTRICITY = 2; endif;
+if ischecked("B", AMENITIES_POSSESSED) then RADIO = 1; else RADIO = 2; endif;
+if ischecked("C", AMENITIES_POSSESSED) then TELEVISION = 1; else TELEVISION = 2; endif;
+if ischecked("D", AMENITIES_POSSESSED) then GSM_LANDLINE = 1; else GSM_LANDLINE = 2; endif;
+if ischecked("E", AMENITIES_POSSESSED) then COMPUTER = 1; else COMPUTER = 2; endif;
+if ischecked("F", AMENITIES_POSSESSED) then REFRIGERATOR = 1; else REFRIGERATOR = 2; endif;
+if ischecked("G", AMENITIES_POSSESSED) then HAVE_TABLE = 1; else HAVE_TABLE = 2; endif;
+
+if ischecked("H", AMENITIES_POSSESSED) then CHAIR = 1; else CHAIR = 2; endif;
+if ischecked("I", AMENITIES_POSSESSED) then BED = 1; else BED = 2; endif;
+if ischecked("J", AMENITIES_POSSESSED) then SETTEE = 1; else SETTEE = 2; endif;
+if ischecked("K", AMENITIES_POSSESSED) then CUPBOARD = 1; else CUPBOARD = 2; endif;
+if ischecked("L", AMENITIES_POSSESSED) then AIR_CONDITIONER = 1; else AIR_CONDITIONER = 2; endif;
+if ischecked("M", AMENITIES_POSSESSED) then ELECTRIC_IRON = 1; else ELECTRIC_IRON = 2; endif;
+if ischecked("N", AMENITIES_POSSESSED) then GENERATOR = 1; else GENERATOR = 2; endif;
+if ischecked("O", AMENITIES_POSSESSED) then FAN = 1; else FAN = 2; endif;
+if ischecked("P", AMENITIES_POSSESSED) then BICYCLE = 1; else BICYCLE = 2; endif;
+if ischecked("Q", AMENITIES_POSSESSED) then OKADA = 1; else OKADA = 2; endif;
+
+if ischecked("R", AMENITIES_POSSESSED) then CAR = 1; else CAR = 2; endif;
+if ischecked("S", AMENITIES_POSSESSED) then KEKE = 1; else KEKE = 2; endif;
+if ischecked("T", AMENITIES_POSSESSED) then MOTORIZED_BOAT = 1; else MOTORIZED_BOAT = 2; endif;
+if ischecked("U", AMENITIES_POSSESSED) then CANOE = 1; else CANOE = 2; endif;
+if ischecked("V", AMENITIES_POSSESSED) then ANIMAL_DRAWN_CART = 1; else ANIMAL_DRAWN_CART = 2; endif;
+if ischecked("W", AMENITIES_POSSESSED) then BANK_ACCOUNT = 1; else BANK_ACCOUNT = 2; endif;
+
+if ischecked("X", AMENITIES_POSSESSED) then INTERNET = 1; else INTERNET = 2; endif;
+
+

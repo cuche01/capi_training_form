@@ -40,8 +40,8 @@
   "properties": {
     "askOperatorId": false, 
     "autoAdvanceOnSelection": false, 
-    "caseTree": "mobileOnly", 
-    "centerForms": false, 
+    "caseTree": "desktopOnly", 
+    "centerForms": true, 
     "createListing": false, 
     "createLog": false, 
     "decimalMark": "dot", 
@@ -51,7 +51,7 @@
       "edit": "all"
     }, 
     "partialSave": {
-      "operatorEnabled": false
+      "operatorEnabled": true
     }, 
     "showEndCaseMessage": true, 
     "showOnlyDiscreteValuesInComboBoxes": true, 
