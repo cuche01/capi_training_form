@@ -104,8 +104,42 @@ Endif;
   // skip to RELIGION;
 // Endif;
 
-PROC RELIGION
+PROC CON_ANC
 
-if $ in 0:1 then
-skip to MARITAL_STATUS;
+if length(strip($)) = 0 then
+	errmsg("You must select at least one option");
+	reenter;
 endif;
+
+if ischecked("A", CON_ANC) then BP = 1; else BP = 2; endif;
+if ischecked("B", CON_ANC) then FERSOLATE = 1; else FERSOLATE = 2; endif;
+if ischecked("C", CON_ANC) then TT = 1; else TT = 2; endif;
+if ischecked("D", CON_ANC) then EXP_OF_PREG = 1; else EXP_OF_PREG = 2; endif;
+if ischecked("E", CON_ANC) then URINALYSIS = 1; else URINALYSIS = 2; endif;
+if ischecked("F", CON_ANC) then FBC = 1; else FBC = 2; endif;
+if ischecked("G", CON_ANC) then WEIGHT_1 = 1; else WEIGHT_1 = 2; endif;
+PROC SOURCE_OF_DRINKING_WATER
+
+if $ in 1:4 then
+	skip to TOILET_FACILITY;
+endif;
+PROC TOILET_FACILITY
+
+if $ in 1:4 then
+	skip to TYPE_OF_RESIDENCE;
+endif;
+PROC AMENITIES_POSSESSED
+
+
+// if length(strip($)) = 0 then
+	// errmsg("You must select at least one option");
+	// reenter;
+// endif;
+
+// if ischecked("A", AMENITIES_POSSESSED) then BP = 1; else BP = 2; endif;
+// if ischecked("B", AMENITIES_POSSESSED) then FERSOLATE = 1; else FERSOLATE = 2; endif;
+// if ischecked("C", AMENITIES_POSSESSED) then TT = 1; else TT = 2; endif;
+// if ischecked("D", AMENITIES_POSSESSED) then EXP_OF_PREG = 1; else EXP_OF_PREG = 2; endif;
+// if ischecked("E", AMENITIES_POSSESSED) then URINALYSIS = 1; else URINALYSIS = 2; endif;
+// if ischecked("F", AMENITIES_POSSESSED) then FBC = 1; else FBC = 2; endif;
+// if ischecked("G", AMENITIES_POSSESSED) then WEIGHT_1 = 1; else WEIGHT_1 = 2; endif;
