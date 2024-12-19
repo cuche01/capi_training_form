@@ -1426,6 +1426,122 @@
               ]
             }
           ]
+        }, 
+        {
+          "name": "SECTION_D_BIRTH_CHARACTERISTICS", 
+          "labels": [ { "text": "SECTION D: BIRTH CHARACTERISTICS" } ], 
+          "recordType": "3", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "BIRTH_WEIGHT", 
+              "labels": [ { "text": "41. Birth weight" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BIRTH_WEIGHT_VS1", 
+                  "labels": [ { "text": "41. Birth weight" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "unknown" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "<1500g" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "1500g – 2499g" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2500 – 3999" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": ">4000g" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BIRTH_ORDER", 
+              "labels": [ { "text": "42. Birth order" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BIRTH_ORDER_VS1", 
+                  "labels": [ { "text": "42. Birth order" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "first" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "second" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "third" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "fourth" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "fifth and above" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "PLACE_OF_BIRTH", 
+              "labels": [ { "text": "43. Place of birth" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "PLACE_OF_BIRTH_VS1", 
+                  "labels": [ { "text": "43. Place of birth" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "unknown" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "home" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "hospital" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "TBA clinic" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "others" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
