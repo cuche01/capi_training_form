@@ -27,11 +27,12 @@ PROC RE_YEAR
 Preproc
 $ = sysdate("YYYY");
 PROC PLACE_RES
-Postproc
-if $ = " " then
-errmsg ("Place of residence cannot be blank");
-REENTER;
-ENDIF;
+postproc
+// errmsg(concat("A", PLACE_RES, "A"));
+If length(strip($)) < 1 Then
+  errmsg("This can't be blank");
+  Reenter
+Endif;
 PROC ETHNIC
 
 

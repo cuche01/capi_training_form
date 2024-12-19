@@ -4,5 +4,5 @@ AppType=Entry
 
 [Files]
 Application=.\Profoma.ent
-InputData=.\ProfomaVer1.dat
+InputData=.\ProfomaVer2.dat
 Paradata=.\Profoma.cslog

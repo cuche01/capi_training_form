@@ -2662,9 +2662,10 @@
           ]
         }, 
         {
-          "name": "SECTION_D_BIRTH_CHARACTERISTICS", 
+
+          "name": "SECTION_D", 
           "labels": [ { "text": "SECTION D: BIRTH CHARACTERISTICS" } ], 
-          "recordType": "5", 
+          "recordType": "4", 
           "occurrences": {
             "required": true, 
             "maximum": 1

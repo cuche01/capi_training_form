@@ -202,6 +202,7 @@ Text=1. Age
 Name=PLACE_RES
 Position=368,221,1069,241
 Item=PLACE_RES,PROFOMA_DICT
+ValidationMethod=Confirm
 UpperCase=Yes
 DataCaptureType=TextBox
 Form=1
@@ -256,8 +257,8 @@ DataCaptureType=TextBox
 Form=1
   
 [Text]
-Position=480,323,612,339
-Text=5b. Specify Ethnicity 
+Position=480,323,608,339
+Text=5b. Specify Ethnicity
  
   
 [Field]
