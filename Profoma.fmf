@@ -20,9 +20,6 @@ Item=SER_NUM
 Item=STATE
 Item=LGA
 Item=ENUM_ID
-Item=RE_DAY
-Item=RE_MONTH
-Item=RE_YEAR
 Item=DOB_D
 Item=DOB_M
 Item=DOB_Y
@@ -36,17 +33,11 @@ Item=RELIGION
 Item=RELIGION_SPC
 Item=MARITAL_STATUS
 Item=TYPE_MAR
+Item=RE_DATE
   
   
 [Text]
-Name=TEXT1
-Position=270,118,296,134
-Text=DAY
-Form=1
- 
-  
-[Text]
-Name=TEXT1
+Name=TEXT000
 Position=270,168,296,184
 Text=DAY
 Form=1
@@ -115,39 +106,17 @@ Text=Enumerators ID
  
   
 [Field]
-Name=RE_DAY
-Position=271,92,300,112
-Item=RE_DAY,PROFOMA_DICT
-DataCaptureType=TextBox
+Name=RE_DATE
+Position=232,87,345,107
+Item=RE_DATE,PROFOMA_DICT
+Protected=Yes
+DataCaptureType=Date
+CaptureDateFormat=YYYYMMDD
 Form=1
   
 [Text]
-Position=107,94,259,110
-Text=Date of recruitment:DAY
- 
-  
-[Field]
-Name=RE_MONTH
-Position=309,92,338,112
-Item=RE_MONTH,PROFOMA_DICT
-DataCaptureType=DropDown
-Form=1
-  
-[Text]
-Position=306,119,353,135
-Text=MONTH
- 
-  
-[Field]
-Name=RE_YEAR
-Position=344,91,401,111
-Item=RE_YEAR,PROFOMA_DICT
-DataCaptureType=TextBox
-Form=1
-  
-[Text]
-Position=364,117,398,133
-Text=YEAR
+Position=106,90,228,106
+Text=Date of recruitment
  
   
 [Field]
@@ -216,7 +185,7 @@ Text=2. Place of residence
 Name=GEST_AGE
 Position=364,245,379,265
 Item=GEST_AGE,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
@@ -240,7 +209,7 @@ Text=4. Parity
 Name=ETHNIC
 Position=364,295,379,315
 Item=ETHNIC,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
@@ -265,7 +234,7 @@ Text=5b. Specify Ethnicity
 Name=RELIGION
 Position=364,358,379,378
 Item=RELIGION,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
@@ -290,7 +259,7 @@ Text=6b. Specify Religion
 Name=MARITAL_STATUS
 Position=364,400,379,420
 Item=MARITAL_STATUS,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]
@@ -302,7 +271,7 @@ Text=7. Marital status
 Name=TYPE_MAR
 Position=364,438,379,458
 Item=TYPE_MAR,PROFOMA_DICT
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=1
   
 [Text]

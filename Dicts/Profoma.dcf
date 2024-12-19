@@ -601,8 +601,9 @@
             {
               "name": "RE_DATE", 
               "labels": [ { "text": "Date of recruitment" } ], 
-              "contentType": "alpha", 
-              "length": 8
+              "contentType": "numeric", 
+              "length": 8, 
+              "zeroFill": false
             }, 
             {
               "name": "RE_DAY", 
