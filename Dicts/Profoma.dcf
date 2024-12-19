@@ -1246,7 +1246,184 @@
               "labels": [ { "text": "16. Obstetric scan finding of Oligohydramnios" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "OLIGO_VS1", 
+                  "labels": [ { "text": "16. Obstetric scan finding of Oligohydramnios" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "OBSTETRIC_SCAN_FINDING_OF_POLYHYDRAMNIOS", 
+              "labels": [ { "text": "17. Obstetric scan finding of Polyhydramnios" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "OBSTETRIC_SCAN_FINDING_OF_POLYHYDRAMNIOS_VS1", 
+                  "labels": [ { "text": "17. Obstetric scan finding of Polyhydramnios" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "INGESTION_OF_ALCOHOL_IN_PREGNANCY", 
+              "labels": [ { "text": "18. Ingestion of alcohol in pregnancy" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "INGESTION_OF_ALCOHOL_IN_PREGNANCY_VS1", 
+                  "labels": [ { "text": "18. Ingestion of alcohol in pregnancy" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HISTORY_OF_CIGARETTE_SMOKING_IN_PREGNANCY", 
+              "labels": [ { "text": "19.History of cigarette smoking in pregnancy" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HISTORY_OF_CIGARETTE_SMOKING_IN_PREGNANCY_VS1", 
+                  "labels": [ { "text": "19.History of cigarette smoking in pregnancy" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BODY_RASH_IN_THE_FIRST_OR_THIRD_TRIMESTER_1", 
+              "labels": [ { "text": "20. Body rash in the first or third trimester? " } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BODY_RASH_IN_THE_FIRST_OR_THIRD_TRIMESTER_1_VS1", 
+                  "labels": [ { "text": "20. Body rash in the first or third trimester? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HISTORY_OF_PRETERM_BIRTH_IN_PREVIOUS_CONFINEMENT", 
+              "labels": [ { "text": "21. History of preterm birth in previous confinement" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HISTORY_OF_PRETERM_BIRTH_IN_PREVIOUS_CONFINEMENT_VS1", 
+                  "labels": [ { "text": "21. History of preterm birth in previous confinement" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HISTORY_OF_LOW_BIRTH_WEIGHT_IN_PREVIOUS_CONFINEM", 
+              "labels": [ { "text": "22. History of low birth weight in previous confinement" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HISTORY_OF_LOW_BIRTH_WEIGHT_IN_PREVIOUS_CONFINEM_VS1", 
+                  "labels": [ { "text": "22. History of low birth weight in previous confinement" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HISTORY_OF_CONGENITAL_ANOMALY_IN_PREVIOUS_BIRTHS", 
+              "labels": [ { "text": "23. History of congenital anomaly in previous births" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HISTORY_OF_CONGENITAL_ANOMALY_IN_PREVIOUS_BIRTHS_VS1", 
+                  "labels": [ { "text": "23. History of congenital anomaly in previous births" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
