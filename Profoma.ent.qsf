@@ -190,30 +190,60 @@ questions:
     conditions:
       - questionText:
           EN: |
-            34a, How many Chicken do you have?<p></p>
+            <p>34a, How many Chicken do you have?&nbsp;</p><p><font color="#0000ff"><b>INTERVIEWER ENTER 0 IF NONE</b></font></p><p></p><p></p><p></p>
   - name: PROFOMA_DICT.COW
     conditions:
       - questionText:
           EN: |
-            34b. How many Cows do you have?<p></p>
+            <p>34b. How many Cows do you have?&nbsp;</p><p><span style="color: rgb(0, 0, 255);"><b>INTERVIEWER ENTER 0 IF NONE</b></span></p><p><p></p></p>
   - name: PROFOMA_DICT.SHEEP_RAM
     conditions:
       - questionText:
           EN: |
-            34c. How many Sheep/Ram do you have?<p></p>
+            <p>34c. How many Sheep/Ram do you have?</p><p><span style="color: rgb(0, 0, 255);"><b>INTERVIEWER ENTER 0 IF NONE</b></span></p><p><p></p></p>
   - name: PROFOMA_DICT.DONKEY
     conditions:
       - questionText:
           EN: |
-            34d. How many Donkeys do you have?<p></p>
+            <p>34d. How many Donkeys do you have?</p><p><span style="color: rgb(0, 0, 255);"><b>INTERVIEWER ENTER 0 IF NONE</b></span></p><p><p></p></p>
   - name: PROFOMA_DICT.FISH
     conditions:
       - questionText:
           EN: |
-            34e. How many Fishes do you have?<p></p>
+            <p>34e. How many Fishes do you have?</p><p><span style="color: rgb(0, 0, 255);"><b>INTERVIEWER ENTER 0 IF NONE</b></span></p><p><p></p></p>
   - name: PROFOMA_DICT.GOAT
     conditions:
       - questionText:
           EN: |
-            34f. How many Goats do you have?<p></p>
+            <p>34f. How many Goats do you have?</p><p><p><span style="color: rgb(0, 0, 255);"><b>INTERVIEWER ENTER 0 IF NONE</b></span></p><p><br></p></p>
+  - name: PROFOMA_DICT.BIRTH_WEIGHT
+    conditions:
+      - questionText:
+          EN: |
+            41. Birth weight<p></p>
+  - name: PROFOMA_DICT.BIRTH_ORDER
+    conditions:
+      - questionText:
+          EN: |
+            42. Birth order<p></p>
+  - name: PROFOMA_DICT.PLACE_OF_BIRTH
+    conditions:
+      - questionText:
+          EN: |
+            43. Place of birth<p></p>
+  - name: PROFOMA_DICT.RE_DAY
+    conditions:
+      - questionText:
+          EN: |
+            <p>Date of recruitment:</p><p>DAY<p></p></p>
+  - name: PROFOMA_DICT.RE_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            MONTH<p></p>
+  - name: PROFOMA_DICT.RE_YEAR
+    conditions:
+      - questionText:
+          EN: |
+            YEAR<p></p>
 ...

@@ -62,7 +62,7 @@ Form=1
 [Form]
 Name=FORM001
 Label=Section_B_Form
-QuestionTextHeight=20
+QuestionTextHeight=171
 Level=1
 Size=924,579
   
@@ -84,6 +84,19 @@ Item=SHEEP_RAM
 Item=DONKEY
 Item=FISH
 Item=GOAT
+  
+[EndForm]
+  
+[Form]
+Name=FORM003
+Label=SECTION_FORM_D
+QuestionTextHeight=171
+Level=1
+Size=230,136
+  
+Item=BIRTH_WEIGHT
+Item=BIRTH_ORDER
+Item=PLACE_OF_BIRTH
   
 [EndForm]
   
@@ -525,7 +538,6 @@ Text=24. Source of drinking water
 Name=A_OTHER_SOURCE_OF_DRINKING_WATER
 Position=534,46,704,66
 Item=A_OTHER_SOURCE_OF_DRINKING_WATER,PROFOMA_DICT
-UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=2
   
@@ -725,6 +737,50 @@ Form=2
 [Text]
 Position=299,525,522,541
 Text=34f. How many Goats do you have?
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=SECTION_FORM_D
+Label=SECTION_FORM_D
+Form=3
+Max=1
+  
+[Field]
+Name=BIRTH_WEIGHT
+Position=190,31,205,51
+Item=BIRTH_WEIGHT,PROFOMA_DICT
+DataCaptureType=RadioButton
+Form=3
+  
+[Text]
+Position=69,34,168,50
+Text=41. Birth weight
+ 
+  
+[Field]
+Name=BIRTH_ORDER
+Position=190,61,205,81
+Item=BIRTH_ORDER,PROFOMA_DICT
+DataCaptureType=RadioButton
+Form=3
+  
+[Text]
+Position=69,64,159,80
+Text=42. Birth order
+ 
+  
+[Field]
+Name=PLACE_OF_BIRTH
+Position=190,91,205,111
+Item=PLACE_OF_BIRTH,PROFOMA_DICT
+DataCaptureType=RadioButton
+Form=3
+  
+[Text]
+Position=69,94,176,110
+Text=43. Place of birth
  
 [EndGroup]
   
