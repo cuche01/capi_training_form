@@ -1099,14 +1099,29 @@
               "labels": [ { "text": "9. Hospital admission?" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HOSP_ADM_VS1", 
+                  "labels": [ { "text": "9. Hospital admission?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "DIAGNOSIS", 
               "labels": [ { "text": "10. Diagnosis on admission" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false
+              "contentType": "alpha", 
+              "length": 50
             }, 
             {
               "name": "PRE_PREG", 
@@ -1122,14 +1137,46 @@
               "labels": [ { "text": "12. History of blood transfusion" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HIST_BLOOD_VS1", 
+                  "labels": [ { "text": "12. History of blood transfusion" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "REC_ANC", 
               "labels": [ { "text": "13. Receiving antenatal care (ANC)?" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "REC_ANC_VS1", 
+                  "labels": [ { "text": "13. Receiving antenatal care (ANC)?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "NUM_ANC", 
@@ -2615,7 +2662,7 @@
           ]
         }, 
         {
-          "name": "SECTION_D_BIRTH_CHARACTERISTICS", 
+          "name": "SECTION_D", 
           "labels": [ { "text": "SECTION D: BIRTH CHARACTERISTICS" } ], 
           "recordType": "5", 
           "occurrences": {
