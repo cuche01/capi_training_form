@@ -1526,6 +1526,71 @@
               ]
             }
           ]
+        }, 
+        {
+          "name": "SECTION_C", 
+          "labels": [ { "text": "SECTION C: RESULT OF BLOOD TESTS AND ANTHROPOMETRIC MEASUREMENTS" } ], 
+          "recordType": "3", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "HB_G_DL", 
+              "labels": [ { "text": "35. Hb (g/dl)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SERUM_PROTEIN_G_DL", 
+              "labels": [ { "text": "36. Serum Protein (g/dl)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SERUM_ALBUMIN_G_DL", 
+              "labels": [ { "text": "37. Serum Albumin (g/dl)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SERUM_CALCIUM_MMOL_L", 
+              "labels": [ { "text": "38. Serum calcium (mmol/L)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WEIGHT_KG", 
+              "labels": [ { "text": "39. Weight (kg)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LENGTH_M", 
+              "labels": [ { "text": "40. Length (m)" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }
+          ]
         }
       ]
     }
