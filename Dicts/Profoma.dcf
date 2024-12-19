@@ -1528,188 +1528,7 @@
           ]
         }, 
         {
-          "name": "SECTION_C", 
-          "labels": [ { "text": "SECTION C: RESULT OF BLOOD TESTS AND ANTHROPOMETRIC MEASUREMENTS" } ], 
-          "recordType": "3", 
-          "occurrences": {
-            "required": true, 
-            "maximum": 1
-          }, 
-          "items": [
-            {
-              "name": "HB_G_DL", 
-              "labels": [ { "text": "35. Hb (g/dl)" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
-              "decimals": 1, 
-              "decimalMark": true, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "SERUM_PROTEIN_G_DL", 
-              "labels": [ { "text": "36. Serum Protein (g/dl)" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
-              "decimals": 1, 
-              "decimalMark": true, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "SERUM_ALBUMIN_G_DL", 
-              "labels": [ { "text": "37. Serum Albumin (g/dl)" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
-              "decimals": 1, 
-              "decimalMark": true, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "SERUM_CALCIUM_MMOL_L", 
-              "labels": [ { "text": "38. Serum calcium (mmol/L)" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
-              "decimals": 1, 
-              "decimalMark": true, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "WEIGHT_KG", 
-              "labels": [ { "text": "39. Weight (kg)" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
-              "decimals": 1, 
-              "decimalMark": true, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "LENGTH_M", 
-              "labels": [ { "text": "40. Length (m)" } ], 
-              "contentType": "numeric", 
-              "length": 5, 
-              "decimals": 1, 
-              "decimalMark": true, 
-              "zeroFill": false
-            }
-          ]
-        },
-        {
-          "name": "SECTION_D_BIRTH_CHARACTERISTICS", 
-          "labels": [ { "text": "SECTION D: BIRTH CHARACTERISTICS" } ],
-          "recordType": "4", 
-          "occurrences": {
-            "required": true, 
-            "maximum": 1
-          },
-          "items": [
-            {
-              "name": "BIRTH_WEIGHT", 
-              "labels": [ { "text": "41. Birth weight" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
-              "valueSets": [
-                {
-                  "name": "BIRTH_WEIGHT_VS1", 
-                  "labels": [ { "text": "41. Birth weight" } ], 
-                  "values": [
-                    {
-                      "labels": [ { "text": "unknown" } ], 
-                      "pairs": [ { "value": "0" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "<1500g" } ], 
-                      "pairs": [ { "value": "1" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "1500g – 2499g" } ], 
-                      "pairs": [ { "value": "2" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "2500 – 3999" } ], 
-                      "pairs": [ { "value": "3" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": ">4000g" } ], 
-                      "pairs": [ { "value": "4" } ]
-                    }
-                  ]
-                }
-              ]
-            }, 
-            {
-              "name": "BIRTH_ORDER", 
-              "labels": [ { "text": "42. Birth order" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
-              "valueSets": [
-                {
-                  "name": "BIRTH_ORDER_VS1", 
-                  "labels": [ { "text": "42. Birth order" } ], 
-                  "values": [
-                    {
-                      "labels": [ { "text": "first" } ], 
-                      "pairs": [ { "value": "0" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "second" } ], 
-                      "pairs": [ { "value": "1" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "third" } ], 
-                      "pairs": [ { "value": "2" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "fourth" } ], 
-                      "pairs": [ { "value": "3" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "fifth and above" } ], 
-                      "pairs": [ { "value": "4" } ]
-                    }
-                  ]
-                }
-              ]
-            }, 
-            {
-              "name": "PLACE_OF_BIRTH", 
-              "labels": [ { "text": "43. Place of birth" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
-              "valueSets": [
-                {
-                  "name": "PLACE_OF_BIRTH_VS1", 
-                  "labels": [ { "text": "43. Place of birth" } ], 
-                  "values": [
-                    {
-                      "labels": [ { "text": "unknown" } ], 
-                      "pairs": [ { "value": "0" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "home" } ], 
-                      "pairs": [ { "value": "1" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "hospital" } ], 
-                      "pairs": [ { "value": "2" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "TBA clinic" } ], 
-                      "pairs": [ { "value": "3" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "others" } ], 
-                      "pairs": [ { "value": "4" } ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }, 
-        {
-          "name": "SECTION_B_MATERNAL_SOCIOECONOMIC_CHARACTERISTICS", 
+          "name": "SECTION_B", 
           "labels": [ { "text": "SECTION B: MATERNAL SOCIOECONOMIC CHARACTERISTICS" } ], 
           "recordType": "3", 
           "occurrences": {
@@ -1908,7 +1727,7 @@
               "name": "AMENITIES_POSSESSED", 
               "labels": [ { "text": "29. Do you possess or enjoy any of these amenities? (circle as applicable)" } ], 
               "contentType": "alpha", 
-              "length": 27, 
+              "length": 26, 
               "valueSets": [
                 {
                   "name": "AMENITIES_POSSESSED_VS1", 
@@ -1916,111 +1735,651 @@
                   "values": [
                     {
                       "labels": [ { "text": "Electricity" } ], 
-                      "pairs": [ { "value": "1" } ]
+                      "pairs": [ { "value": "A" } ]
                     }, 
                     {
                       "labels": [ { "text": "Radio" } ], 
-                      "pairs": [ { "value": "2" } ]
+                      "pairs": [ { "value": "B" } ]
                     }, 
                     {
                       "labels": [ { "text": "Television" } ], 
-                      "pairs": [ { "value": "3" } ]
+                      "pairs": [ { "value": "C" } ]
                     }, 
                     {
-                      "labels": [ { "text": "GSM" } ], 
-                      "pairs": [ { "value": "4" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "Landline" } ], 
-                      "pairs": [ { "value": "5" } ]
+                      "labels": [ { "text": "GSM/Landline" } ], 
+                      "pairs": [ { "value": "D" } ]
                     }, 
                     {
                       "labels": [ { "text": "Computer" } ], 
-                      "pairs": [ { "value": "6" } ]
+                      "pairs": [ { "value": "E" } ]
                     }, 
                     {
-                      "labels": [ { "text": "Refrigerator" } ], 
-                      "pairs": [ { "value": "7" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "Deep freezer" } ], 
-                      "pairs": [ { "value": "8" } ]
+                      "labels": [ { "text": "Refrigerator/Deep freezer" } ], 
+                      "pairs": [ { "value": "F" } ]
                     }, 
                     {
                       "labels": [ { "text": "Table" } ], 
-                      "pairs": [ { "value": "9" } ]
+                      "pairs": [ { "value": "G" } ]
                     }, 
                     {
                       "labels": [ { "text": "Chair" } ], 
-                      "pairs": [ { "value": "10" } ]
+                      "pairs": [ { "value": "H" } ]
                     }, 
                     {
                       "labels": [ { "text": "Bed" } ], 
-                      "pairs": [ { "value": "11" } ]
+                      "pairs": [ { "value": "I" } ]
                     }, 
                     {
                       "labels": [ { "text": "Settee" } ], 
-                      "pairs": [ { "value": "12" } ]
+                      "pairs": [ { "value": "J" } ]
                     }, 
                     {
                       "labels": [ { "text": "Cupboard" } ], 
-                      "pairs": [ { "value": "13" } ]
+                      "pairs": [ { "value": "K" } ]
                     }, 
                     {
                       "labels": [ { "text": "Air conditioner" } ], 
-                      "pairs": [ { "value": "14" } ]
+                      "pairs": [ { "value": "L" } ]
                     }, 
                     {
                       "labels": [ { "text": "Electric iron" } ], 
-                      "pairs": [ { "value": "15" } ]
+                      "pairs": [ { "value": "M" } ]
                     }, 
                     {
                       "labels": [ { "text": "Generator" } ], 
-                      "pairs": [ { "value": "16" } ]
+                      "pairs": [ { "value": "N" } ]
                     }, 
                     {
                       "labels": [ { "text": "Fan" } ], 
-                      "pairs": [ { "value": "17" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "Wristwatch" } ], 
-                      "pairs": [ { "value": "18" } ]
+                      "pairs": [ { "value": "O" } ]
                     }, 
                     {
                       "labels": [ { "text": "Bicycle" } ], 
-                      "pairs": [ { "value": "19" } ]
+                      "pairs": [ { "value": "P" } ]
                     }, 
                     {
                       "labels": [ { "text": "Okada" } ], 
-                      "pairs": [ { "value": "20" } ]
+                      "pairs": [ { "value": "Q" } ]
                     }, 
                     {
                       "labels": [ { "text": "Car" } ], 
-                      "pairs": [ { "value": "21" } ]
+                      "pairs": [ { "value": "R" } ]
                     }, 
                     {
                       "labels": [ { "text": "Keke" } ], 
-                      "pairs": [ { "value": "22" } ]
+                      "pairs": [ { "value": "S" } ]
                     }, 
                     {
                       "labels": [ { "text": "Motorized boat" } ], 
-                      "pairs": [ { "value": "23" } ]
+                      "pairs": [ { "value": "T" } ]
                     }, 
                     {
                       "labels": [ { "text": "Canoe" } ], 
-                      "pairs": [ { "value": "24" } ]
+                      "pairs": [ { "value": "U" } ]
                     }, 
                     {
                       "labels": [ { "text": "Animal-drawn-cart" } ], 
-                      "pairs": [ { "value": "25" } ]
+                      "pairs": [ { "value": "V" } ]
                     }, 
                     {
                       "labels": [ { "text": "Bank account" } ], 
-                      "pairs": [ { "value": "26" } ]
+                      "pairs": [ { "value": "W" } ]
                     }, 
                     {
                       "labels": [ { "text": "Internet" } ], 
-                      "pairs": [ { "value": "27" } ]
+                      "pairs": [ { "value": "X" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ELECTRICITY", 
+              "labels": [ { "text": "Electricity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "ELECTRICITY_VS1", 
+                  "labels": [ { "text": "Electricity" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "RADIO", 
+              "labels": [ { "text": "Radio" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "RADIO_VS1", 
+                  "labels": [ { "text": "Radio" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "TELEVISION", 
+              "labels": [ { "text": "Television" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "TELEVISION_VS1", 
+                  "labels": [ { "text": "Television" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "GSM_LANDLINE", 
+              "labels": [ { "text": "GSM/landline" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "GSM_LANDLINE_VS1", 
+                  "labels": [ { "text": "GSM/landline" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "COMPUTER", 
+              "labels": [ { "text": "Computer" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "COMPUTER_VS1", 
+                  "labels": [ { "text": "Computer" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "REFRIGERATOR", 
+              "labels": [ { "text": "Refrigerator" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "REFRIGERATOR_VS1", 
+                  "labels": [ { "text": "Refrigerator" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HAVE_TABLE", 
+              "labels": [ { "text": "Table" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HAVE_TABLE_VS1", 
+                  "labels": [ { "text": "Table" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CHAIR", 
+              "labels": [ { "text": "CHAIR" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "CHAIR_VS1", 
+                  "labels": [ { "text": "CHAIR" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BED", 
+              "labels": [ { "text": "Bed" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BED_VS1", 
+                  "labels": [ { "text": "Bed" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "SETTEE", 
+              "labels": [ { "text": "Settee" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "SETTEE_VS1", 
+                  "labels": [ { "text": "Settee" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CUPBOARD", 
+              "labels": [ { "text": "Cupboard" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "CUPBOARD_VS1", 
+                  "labels": [ { "text": "Cupboard" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "AIR_CONDITIONER", 
+              "labels": [ { "text": "Air conditioner" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "AIR_CONDITIONER_VS1", 
+                  "labels": [ { "text": "Air conditioner" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ELECTRIC_IRON", 
+              "labels": [ { "text": "Electric iron" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "ELECTRIC_IRON_VS1", 
+                  "labels": [ { "text": "Electric iron" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "GENERATOR", 
+              "labels": [ { "text": "Generator" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "GENERATOR_VS1", 
+                  "labels": [ { "text": "Generator" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FAN", 
+              "labels": [ { "text": "Fan" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "FAN_VS1", 
+                  "labels": [ { "text": "Fan" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BICYCLE", 
+              "labels": [ { "text": "Bicycle" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BICYCLE_VS1", 
+                  "labels": [ { "text": "Bicycle" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "OKADA", 
+              "labels": [ { "text": "Okada" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "OKADA_VS1", 
+                  "labels": [ { "text": "Okada" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CAR", 
+              "labels": [ { "text": "Car" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "CAR_VS1", 
+                  "labels": [ { "text": "Car" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "KEKE", 
+              "labels": [ { "text": "Keke" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "KEKE_VS1", 
+                  "labels": [ { "text": "Keke" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "MOTORIZED_BOAT", 
+              "labels": [ { "text": "Motorized boat" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "MOTORIZED_BOAT_VS1", 
+                  "labels": [ { "text": "Motorized boat" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CANOE", 
+              "labels": [ { "text": "Canoe" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "CANOE_VS1", 
+                  "labels": [ { "text": "Canoe" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ANIMAL_DRAWN_CART", 
+              "labels": [ { "text": "Animal-drawn-cart" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "ANIMAL_DRAWN_CART_VS1", 
+                  "labels": [ { "text": "Animal-drawn-cart" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BANK_ACCOUNT", 
+              "labels": [ { "text": "Bank account" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BANK_ACCOUNT_VS1", 
+                  "labels": [ { "text": "Bank account" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "INTERNET", 
+              "labels": [ { "text": "Internet" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "INTERNET_VS1", 
+                  "labels": [ { "text": "Internet" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -2147,80 +2506,227 @@
               ]
             }, 
             {
-              "name": "OWN_ANY_ANIMALS", 
-              "labels": [ { "text": "34. Do you own any animals?" } ], 
-              "contentType": "alpha", 
-              "length": 18, 
+              "name": "CHICKEN", 
+              "labels": [ { "text": "34a, How many Chicken do you have?" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "COW", 
+              "labels": [ { "text": "34b. How many Cows do you have?" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SHEEP_RAM", 
+              "labels": [ { "text": "34c. How many Sheep/Ram do you have?" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "DONKEY", 
+              "labels": [ { "text": "34d. How many Donkeys do you have?" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FISH", 
+              "labels": [ { "text": "34e. How many Fishes do you have?" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "GOAT", 
+              "labels": [ { "text": "34f. How many Goats do you have?" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": false
+            }
+          ]
+        }, 
+        {
+          "name": "SECTION_C", 
+          "labels": [ { "text": "SECTION C: RESULT OF BLOOD TESTS AND ANTHROPOMETRIC MEASUREMENTS" } ], 
+          "recordType": "4", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "HB_G_DL", 
+              "labels": [ { "text": "35. Hb (g/dl)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SERUM_PROTEIN_G_DL", 
+              "labels": [ { "text": "36. Serum Protein (g/dl)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SERUM_ALBUMIN_G_DL", 
+              "labels": [ { "text": "37. Serum Albumin (g/dl)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SERUM_CALCIUM_MMOL_L", 
+              "labels": [ { "text": "38. Serum calcium (mmol/L)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WEIGHT_KG", 
+              "labels": [ { "text": "39. Weight (kg)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LENGTH_M", 
+              "labels": [ { "text": "40. Length (m)" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": false
+            }
+          ]
+        }, 
+        {
+          "name": "SECTION_D_BIRTH_CHARACTERISTICS", 
+          "labels": [ { "text": "SECTION D: BIRTH CHARACTERISTICS" } ], 
+          "recordType": "5", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "BIRTH_WEIGHT", 
+              "labels": [ { "text": "41. Birth weight" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
               "valueSets": [
                 {
-                  "name": "OWN_ANY_ANIMALS_VS1", 
-                  "labels": [ { "text": "34. Do you own any animals?" } ], 
+                  "name": "BIRTH_WEIGHT_VS1", 
+                  "labels": [ { "text": "41. Birth weight" } ], 
                   "values": [
                     {
-                      "labels": [ { "text": "Yes" } ], 
+                      "labels": [ { "text": "unknown" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "<1500g" } ], 
                       "pairs": [ { "value": "1" } ]
                     }, 
                     {
-                      "labels": [ { "text": "No" } ], 
+                      "labels": [ { "text": "1500g – 2499g" } ], 
                       "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2500 – 3999" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": ">4000g" } ], 
+                      "pairs": [ { "value": "4" } ]
                     }
                   ]
                 }
               ]
             }, 
             {
-              "name": "CHICKEN", 
-              "labels": [ { "text": "Chicken" } ], 
+              "name": "BIRTH_ORDER", 
+              "labels": [ { "text": "42. Birth order" } ], 
               "contentType": "numeric", 
-              "subitem": true, 
-              "subitemOffset": 0, 
-              "length": 3, 
-              "zeroFill": false
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BIRTH_ORDER_VS1", 
+                  "labels": [ { "text": "42. Birth order" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "first" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "second" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "third" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "fourth" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "fifth and above" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
-              "name": "COW", 
-              "labels": [ { "text": "Cow" } ], 
+              "name": "PLACE_OF_BIRTH", 
+              "labels": [ { "text": "43. Place of birth" } ], 
               "contentType": "numeric", 
-              "subitem": true, 
-              "subitemOffset": 3, 
-              "length": 3, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "SHEEP_RAM", 
-              "labels": [ { "text": "Sheep/Ram" } ], 
-              "contentType": "numeric", 
-              "subitem": true, 
-              "subitemOffset": 6, 
-              "length": 3, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "DONKEY", 
-              "labels": [ { "text": "Donkey" } ], 
-              "contentType": "numeric", 
-              "subitem": true, 
-              "subitemOffset": 9, 
-              "length": 3, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "FISH", 
-              "labels": [ { "text": "Fish" } ], 
-              "contentType": "numeric", 
-              "subitem": true, 
-              "subitemOffset": 12, 
-              "length": 3, 
-              "zeroFill": false
-            }, 
-            {
-              "name": "GOAT", 
-              "labels": [ { "text": "Goat" } ], 
-              "contentType": "numeric", 
-              "subitem": true, 
-              "subitemOffset": 15, 
-              "length": 3, 
-              "zeroFill": false
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "PLACE_OF_BIRTH_VS1", 
+                  "labels": [ { "text": "43. Place of birth" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "unknown" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "home" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "hospital" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "TBA clinic" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "others" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
