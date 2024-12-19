@@ -126,4 +126,94 @@ questions:
       - questionText:
           EN: |
             8. Type of marriage<p></p>
+  - name: PROFOMA_DICT.SOURCE_OF_DRINKING_WATER
+    conditions:
+      - questionText:
+          EN: |
+            24. Source of drinking water<p></p>
+  - name: PROFOMA_DICT.A_OTHER_SOURCE_OF_DRINKING_WATER
+    conditions:
+      - questionText:
+          EN: |
+            24a. Other source of drinking water<p></p>
+  - name: PROFOMA_DICT.TOILET_FACILITY
+    conditions:
+      - questionText:
+          EN: |
+            25. What kind of toilet facility do you use?<p></p>
+  - name: PROFOMA_DICT.OTHER_FACILITY
+    conditions:
+      - questionText:
+          EN: |
+            25a. What other kind of toilet facility do you use?<p></p>
+  - name: PROFOMA_DICT.TYPE_OF_RESIDENCE
+    conditions:
+      - questionText:
+          EN: |
+            26. Type of residence<p></p>
+  - name: PROFOMA_DICT.NUMBER_SLEEP_IN_A_ROOM
+    conditions:
+      - questionText:
+          EN: |
+            27. How many people sleep in a room?<p></p>
+  - name: PROFOMA_DICT.TYPE_OF_COOKING_FUEL
+    conditions:
+      - questionText:
+          EN: |
+            28. Type of cooking fuel<p></p>
+  - name: PROFOMA_DICT.AMENITIES_POSSESSED
+    conditions:
+      - questionText:
+          EN: |
+            29. Do you possess or enjoy any of these amenities? (circle as applicable)<p></p>
+  - name: PROFOMA_DICT.MAIN_FLOOR_MATERIAL
+    conditions:
+      - questionText:
+          EN: |
+            30. Main floor material<p></p>
+  - name: PROFOMA_DICT.MAIN_WALL_MATERIAL
+    conditions:
+      - questionText:
+          EN: |
+            31. Main wall material<p></p>
+  - name: PROFOMA_DICT.OWN_A_HOUSE
+    conditions:
+      - questionText:
+          EN: |
+            32. Do you own a house?<p></p>
+  - name: PROFOMA_DICT.OWN_A_LAND
+    conditions:
+      - questionText:
+          EN: |
+            33. Do you own a land?<p></p>
+  - name: PROFOMA_DICT.CHICKEN
+    conditions:
+      - questionText:
+          EN: |
+            34a, How many Chicken do you have?<p></p>
+  - name: PROFOMA_DICT.COW
+    conditions:
+      - questionText:
+          EN: |
+            34b. How many Cows do you have?<p></p>
+  - name: PROFOMA_DICT.SHEEP_RAM
+    conditions:
+      - questionText:
+          EN: |
+            34c. How many Sheep/Ram do you have?<p></p>
+  - name: PROFOMA_DICT.DONKEY
+    conditions:
+      - questionText:
+          EN: |
+            34d. How many Donkeys do you have?<p></p>
+  - name: PROFOMA_DICT.FISH
+    conditions:
+      - questionText:
+          EN: |
+            34e. How many Fishes do you have?<p></p>
+  - name: PROFOMA_DICT.GOAT
+    conditions:
+      - questionText:
+          EN: |
+            34f. How many Goats do you have?<p></p>
 ...
