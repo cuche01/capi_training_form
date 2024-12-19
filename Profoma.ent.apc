@@ -26,6 +26,12 @@ $ = sysdate("MM");
 PROC RE_YEAR
 Preproc
 $ = sysdate("YYYY");
+PROC PLACE_RES
+Postproc
+if $ = " " then
+errmsg ("Place of residence cannot be blank");
+REENTER;
+ENDIF;
 PROC ETHNIC
 
 
@@ -46,3 +52,8 @@ Endif;
   // skip to RELIGION;
 // Endif;
 
+PROC RELIGION
+
+if $ in 0:1 then
+skip to MARITAL_STATUS;
+endif;
