@@ -1249,6 +1249,48 @@
               "zeroFill": false
             }
           ]
+        }, 
+        {
+          "name": "MATERNAL_SOC_XTERISTICS", 
+          "labels": [ { "text": "MATERNAL SOCIOECONOMIC CHARACTERISTICS " } ], 
+          "recordType": "3", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "SOURCE_WATER", 
+              "labels": [ { "text": "24. Source of drinking water: borehole " } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "SOURCE_WATER_VS1", 
+                  "labels": [ { "text": "24. Source of drinking water: borehole " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "borehole " } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Well" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "stream " } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "pond " } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
