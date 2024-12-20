@@ -1,0 +1,53 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "DATAENTRANTMENU_DICT", 
+  "labels": [ { "text": "DataEntrantMenu" } ], 
+  "security": {
+    "allowDataViewerModifications": true, 
+    "allowExport": true, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "b8492a10c02c2227f248179288f579f9e2016d548809c96980d57a622b0310fc"
+  }, 
+  "readOptimization": true, 
+  "recordType": {
+    "start": 1, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": false
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "DATAENTRANTMENU_LEVEL", 
+      "labels": [ { "text": "DataEntrantMenu Level" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "DATAENTRANTMENU_ID", 
+            "labels": [ { "text": "DataEntrantMenu Identification" } ], 
+            "contentType": "numeric", 
+            "start": 2, 
+            "length": 1, 
+            "zeroFill": false
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "DATAENTRANTMENU_REC", 
+          "labels": [ { "text": "DataEntrantMenu Record" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": []
+        }
+      ]
+    }
+  ]
+}

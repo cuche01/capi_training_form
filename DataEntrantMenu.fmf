@@ -1,0 +1,45 @@
+﻿[FormFile]
+Version=CSPro 8.0
+Name=DATAENTRANTMENU_FF
+Label=DataEntrantMenu
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\Dicts\DataEntrantMenu.dcf
+  
+[Form]
+Name=FORM000
+Label=DataEntrantMenu Level
+Level=1
+Size=410,110
+  
+Item=DATAENTRANTMENU_ID
+  
+[EndForm]
+  
+[Level]
+Name=DATAENTRANTMENU_LEVEL
+Label=DataEntrantMenu Level
+  
+[Group]
+Required=Yes
+Name=DATAENTRANTMENU_LEVEL_FORM
+Label=DataEntrantMenu Level
+Form=1
+Max=1
+  
+[Field]
+Name=DATAENTRANTMENU_ID
+Position=370,65,385,85
+Item=DATAENTRANTMENU_ID,DATAENTRANTMENU_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=146,68,342,84
+Text=DataEntrantMenu Identification
+ 
+[EndGroup]
+  

@@ -2,7 +2,12 @@
 Version=CSPro 8.0
 AppType=Entry
 
+[DataEntryInit]
+
 [Files]
 Application=.\Profoma.ent
 InputData=.\ProfomaVer2.dat
 Paradata=.\Profoma.cslog
+
+[Parameters]
+OnExit=.\DataEntrantMenu.pff
